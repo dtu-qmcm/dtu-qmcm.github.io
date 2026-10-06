@@ -37,11 +37,3 @@ $header-font-family: $sans-serif;
 .person-name { font-weight: bold; color: #990000; }
 .person-role { color: #555; font-style: italic; font-size: 0.9em; }
 .person-email { font-size: 0.85em; }
-3. Create the card template _includes/person.html:
-<div class="person-card">
-  <img src="{{ '/assets/images/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}">
-  <div>
-    <p class="pername }}</p>
-    <p class="person-role">{{ include.person    {% if includerson-email"><ahref="mailto:{{ include.person.email }}">{{ include.person.em
-  </div>
-</div>
