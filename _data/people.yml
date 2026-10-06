@@ -4,6 +4,7 @@
       role: "Scientific Director"
       photo: "lars.jpeg"
       email: "lars.nielsen@uq.edu.au"
+      
     - name: "Teddy Groves"
       role: "Tenure Track Researcher"
       photo: "teddy.jpeg"
@@ -15,3 +16,29 @@
       role: "PhD Student"
       photo: "ainara.jpeg"
       email: "asegma@dtu.dk"
+      
+    - name: "Daria Volkova"
+      role: "PhD Student"
+      photo: "daria.jpeg"
+      email: "dariav@dtu.dk"
+      
+    - name: "Peter Emil Carstensen"
+      role: "PhD Student"
+      photo: "peter.jpeg"
+      email: "pecar@dtu.dk"
+      
+    - name: "Sergi Muyo Abad"
+      role: "PhD Student"
+      photo: "sergi.jpeg"
+      email: "smuyo@dtu.dk"
+
+    - name: "Te Chen"
+      role: "PhD Student"
+      email: "techen@dtu.dk"
+      
+- section: "Postdocs"
+  members:
+    - name: "Nicholas Luke Cowie"
+      role: "Postdoc"
+      photo: "nicholas.jpeg"
+      email: "nicow@dtu.dk"
