@@ -1,0 +1,17 @@
+- section: "Principal Investigators"
+  members:
+    - name: "Lars Keld Nielsen"
+      role: "Scientific Director"
+      photo: "lars.jpg"
+      email: "lars.nielsen@uq.edu.au"
+    - name: "Teddy Groves"
+      role: "Tenure Track Researcher"
+      photo: "teddy.jpg"
+      email: "tedgro@dtu.dk"
+
+- section: "PhD Students"
+  members:
+    - name: "Name Surname"
+      role: "PhD Student"
+      photo: "name.jpg"
+      email: "name@dtu.dk"
