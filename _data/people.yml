@@ -2,16 +2,16 @@
   members:
     - name: "Lars Keld Nielsen"
       role: "Scientific Director"
-      photo: "lars.jpg"
+      photo: "lars.jpeg"
       email: "lars.nielsen@uq.edu.au"
     - name: "Teddy Groves"
       role: "Tenure Track Researcher"
-      photo: "teddy.jpg"
+      photo: "teddy.jpeg"
       email: "tedgro@dtu.dk"
 
 - section: "PhD Students"
   members:
     - name: "Ainara Segura Márquez"
       role: "PhD Student"
-      photo: "ainara.jpg"
+      photo: "ainara.jpeg"
       email: "asegma@dtu.dk"
