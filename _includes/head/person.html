@@ -1,0 +1,8 @@
+<div class="person-card">
+  <img src="{{ '/assets/images/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}">
+  <div>
+    <p class="person-name">{{ include.person.name }}</p>
+    <p class="person-role">{{ include.person.role }}</p>
+    {% if include.person.email %}<p class="person-email"><a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a></p>{% endif %}
+  </div>
+</div>
