@@ -51,5 +51,5 @@ Edit `anouncements.md`, and update the "Latest news" list in `index.md`.
 ## Tips
 - Indentation matters in `.yml` files: use spaces, never Tab.
 - Put quotes around titles that contain a `:`.
-- If the site doesn't change after a green build, open it in a private window. Your browser may be showing an old copy.
+- If the site doesn't change after a green build, open it in a private window or use Ctrl+Shift+R to refresh the page. Your browser may be showing an old copy.
 - If the build is red, open the failed run in **Actions** and read the line starting with `Error:`.
