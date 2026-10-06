@@ -1,0 +1,5 @@
+title: "Quantitative Modelling of Cell Metabolism (QMCM)"
+description: "The Quantitative Modelling of Cell Metabolism team analyses quantitative multi-omics datasets, using them to produce fine-grained numerical descriptions of biological processes that can guide environmentally crucial metabolic engineering projects."
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-include-cache
