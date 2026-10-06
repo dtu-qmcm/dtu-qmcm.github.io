@@ -30,7 +30,7 @@ $header-font-family: $sans-serif;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 /* People cards */
-.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5em; margin-bottom: 2em; }
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5em; margin-bottom: 2em; }
 .person-card { display: flex; align-items: center; gap: 1em; }
 .person-card img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .person-card p { margin: 0 0 0.2em; }
