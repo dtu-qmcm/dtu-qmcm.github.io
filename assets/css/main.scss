@@ -29,3 +29,19 @@ $header-font-family: $sans-serif;
 .page__hero--overlay .page__lead {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
+/* People cards */
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5em; margin-bottom: 2em; }
+.person-card { display: flex; align-items: center; gap: 1em; }
+.person-card img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.person-card p { margin: 0 0 0.2em; }
+.person-name { font-weight: bold; color: #990000; }
+.person-role { color: #555; font-style: italic; font-size: 0.9em; }
+.person-email { font-size: 0.85em; }
+3. Create the card template _includes/person.html:
+<div class="person-card">
+  <img src="{{ '/assets/images/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}">
+  <div>
+    <p class="pername }}</p>
+    <p class="person-role">{{ include.person    {% if includerson-email"><ahref="mailto:{{ include.person.email }}">{{ include.person.em
+  </div>
+</div>
