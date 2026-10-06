@@ -4,7 +4,7 @@ title: "Quantitative Modelling of Cell Metabolism"
 excerpt: "Turning multi-omics data into quantitative models of metabolism."
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.65
+  overlay_filter: 0.5
 feature_row:
   - title: "Research"
     excerpt: "Statistical models of metabolic networks."
