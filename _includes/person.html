@@ -1,5 +1,10 @@
 <div class="person-card">
+  {% if include.person.photo %}
   <img src="{{ '/assets/images/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}">
+  {% else %}
+  {% assign parts = include.person.name | split: " " %}
+  <div class="person-initials">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
+  {% endif %}
   <div>
     <p class="person-name">{{ include.person.name }}</p>
     <p class="person-role">{{ include.person.role }}</p>
