@@ -15,8 +15,7 @@ permalink: /contact/
 
 ## Address
 
-Quantitative Modelling of Cell Metabolism<br>
-BRIGHT<br>
+The Novo Nordisk Foundation Biotechnology Research Institute for the Green Transition (BRiGHT)<br>
 Technical University of Denmark<br>
 Building 220<br>
 2800 Kgs. Lyngby, Denmark
